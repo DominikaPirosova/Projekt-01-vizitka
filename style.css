@@ -1,3 +1,184 @@
 /* nejsme vcerejsi, pouzivame moderni a intuitivni box model */
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.mojweb {
+    text-align: center;
+    background: url('obrazky/Sapa_2.jpg') center no-repeat;
+    background-size: cover;
+}
+
+
+body {
+    font-style: normal;
+    font-size: 20px;
+    margin: 0px;
+    background-color: #CFD6C2;
+    overflow: auto;
+}
+
+
+section {
+        padding: 30px 10%;
+        overflow: auto;
+}
+    
+
+.footer {
+    font-size: 5px;
+}
+
+
+.menu {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    background-color: #B7CFDC;
+}
+  
+.menu li {
+        display: inline;
+}
+  
+.menu a {
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 25px;
+    text-decoration: none;
+    color: #050A30;
+}
+  
+.menu a:hover {
+    background-color: #74BDCB;
+}
+
+
+a:hover {
+    color: pink;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 55px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 45px;
+}
+
+
+h3 {
+    text-align: left;
+    font-size: 30px;
+}
+
+h4 {
+    text-align: left;
+    font-size: 25px;    
+}
+
+h5 {
+    font-size: 80px;
+}
+
+
+#nadpis {
+    padding: 0px 0px 0px 450px;
+}
+
+
+#obrazok_ja {
+    position:absolute;
+    width: 350px;
+    border-radius: 1500px 150px 1200px 450px;
+    top:500px;
+    left:100px;
+    margin: 40px;
+}
+
+#omne_1 {
+    text-align: justify;
+    padding: 10px 50px 20px 200px;
+    width:79%;
+    float:right;
+}
+
+
+
+.omne_2 img {
+    width: 250px;
+    border-radius: 50%; 
+}
+
+.omne_2 {
+    padding: 0px 0px 20px 750px;
+}
+
+#vietnam_kap img {
+    width: 750px;
+    border-radius: 500px;
+    margin-left: 20%;
+}
+
+#vietnam_kap {
+    text-align: justify;
+    background-color: #AFC8C4;
+}
+
+.vietnam_my {
+    background-color: #AFC8C4;
+}
+
+.vietnam_my img {
+    width: 32%;
+    border: 5px solid gray;
+}
+
+
+
+#galeria img {
+    width: 33%;
+}
+
+#tipy img {
+    width: 32%;
+}
+
+#tipy { 
+    background-color: #AFC8C4
+}
+
+#tipy a {
+    color: #050A30;
+}
+
+#tipy a:hover {
+    color: pink;
+    
+}
+
+
+#kontakt {
+    text-align: right;
+    font-size: 15px;
+}
+
+#kontakt img {
+    width: 110px;
+    float: right;
+    margin-left: 20px;
+    margin-right: 35px;
+    border-radius: 3%;
+}
+
+footer {
+    background-color: white;
+    font-size: 15px;
+}
+
